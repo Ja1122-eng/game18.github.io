@@ -1,0 +1,72 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+  padding: 50px;
+  background: #000000;
+}
+
+input {
+  padding: 10px;
+  font-size: 16px;
+  width: 200px;
+}
+
+.box1 {
+  background: rgb(255, 255, 255);
+  padding: 30px;
+  border-radius: 10px;
+  display: block;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+.box1 h2 {
+    color: #000;
+}
+button {
+  padding: 10px 15px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 10px;
+  background-color: rgb(128, 197, 60);
+}
+.box2 {
+    background: rgb(255, 255, 255);
+  padding: 30px;
+  border-radius: 10px;
+  display: inline-block;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+  margin: 5px;
+
+}
+
+.box {
+  background: rgb(255, 255, 255);
+  padding: 30px;
+  border-radius: 10px;
+  display: inline-table;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+  width: 150px;
+  height: 200px;
+  margin: 10px;
+  padding: 10px;
+}
+.box a img {
+  width: 150px;
+  height: 140px;
+  object-fit: cover; /* ตัดให้พอดีและไม่บิดเบี้ยว */
+  display: block;      /* ลบช่องว่างรอบรูป */
+  
+}
+h2 {
+    color: aliceblue;
+}
+.Bigbox {
+    background-color: rgb(105, 100, 100);
+    margin: 1px;
+    border-radius: 10px;
+    
+}
+.box p {
+    margin: 10px;
+}
